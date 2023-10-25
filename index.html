@@ -150,7 +150,7 @@
 	<kbd>Public IP Address</kbd> <span id="ipaddrpub"></span>
 
 	<script>
-		$.getJSON('http://ip-api.com/json', function(data){
+		$.getJSON('https://ip-api.com/json', function(data){
 	    	document.getElementById("ipaddrpub").innerHTML = data.query + " (" + data.isp + ")";
 
 		});
